@@ -1,6 +1,7 @@
 package org.example;
 
 import org.example.nsteps.NStepsProblem;
+import org.example.pangramchecker.PangramChecker;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -9,9 +10,8 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
-        configAndPerformNStepProblemsSolving();
-
+//        configAndPerformNStepProblemsSolving();
+        performPangramCheck();
     }
 
     /**
@@ -30,5 +30,11 @@ public class Main {
         List<List<Integer>> finalAnswer = new ArrayList<>();
         finalAnswer = nStepsProblem.returnListOfValidSteps();
         System.out.println(Arrays.toString(Arrays.stream(finalAnswer.toArray()).toArray()));
+    }
+
+    public static void performPangramCheck() {
+        PangramChecker pangramChecker = new PangramChecker();
+        String sentence = "The quick brown fox jumps over the lazy do.";
+        System.out.println(pangramChecker.check(sentence));
     }
 }
