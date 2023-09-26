@@ -11,9 +11,9 @@ Given a string, detect whether it is a pangram. Return True if it is, False if n
 
 My solution for pangram checker. I use Maps to store true/false information about each letter usage in sentence.
 
-- Firstly algorithm puts to HashMap each letter from the alphabet as a key and false as a value
-- Secondly we iterate over input sentence letter by letter and put change corresponding value in the HashMap to true
-- Lastly we iterate over the HashMap, if we find at least one false value, result of pangram checker is false, otherwise it's true
+- Firstly algorithm puts in the HashMap each letter from the alphabet as a key and false as a value
+- Secondly it iterates over input sentence letter by letter and puts true as a value to corresponding letter
+- Lastly it iterates over the HashMap, if it finds at least one false value, result of pangram checker is false, otherwise it's true
 
 Cons :
 - Lengthy implementation
