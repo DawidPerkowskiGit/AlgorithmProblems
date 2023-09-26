@@ -23,8 +23,17 @@ Using any command line interface perform tasks listed below.
 git clone https://github.com/DawidPerkowskiGit/AlgorithmsProblems
 ```
 
-2. Edit the Main.class file by uncommenting algorithm function you wish to test.
+2. Edit the Main.class file by uncommenting algorithm function you wish to deploy.
 
+For example running the Pangram Checker algorithm.
+```
+public class Main {
+    public static void main(String[] args) {
+        //configAndPerformNStepProblemsSolving();
+        performPangramCheck();
+    }
+}
+```
 
 3. Compile the project using Maven
 ```

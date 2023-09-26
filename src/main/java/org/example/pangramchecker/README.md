@@ -1,4 +1,4 @@
-# N-steps problem
+# Pangram Checker
 * [Problem](#problem)
 * [Solution](#solution)
 
