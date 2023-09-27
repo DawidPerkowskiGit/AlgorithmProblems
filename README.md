@@ -2,12 +2,22 @@
 These are my solutions for some algorithm problems
 * [N step problem](#n-step-problem)
 * [Pangram checker](#pangram-checker)
+* [Two sum problem](#two-sum-problem)
+* [Parity outlier](#parity-outlier)
 * [Setup](#setup)
+
+
 ## N step problem
 https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/java/org/example/nsteps
 
 ## Pangram checker
 https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/java/org/example/pangramchecker
+
+## Two sum problem
+https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/java/org/example/twosumchecker
+
+## Parity outlier
+https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/java/org/example/parityoutlier
 
 
 ### Setup

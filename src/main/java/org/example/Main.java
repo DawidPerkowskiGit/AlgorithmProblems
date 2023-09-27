@@ -2,6 +2,8 @@ package org.example;
 
 import org.example.nsteps.NStepsProblem;
 import org.example.pangramchecker.PangramChecker;
+import org.example.parityoutlier.ParityOutlier;
+import org.example.twosumchecker.TwoSumChecker;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -12,6 +14,8 @@ public class Main {
     public static void main(String[] args) {
         configAndPerformNStepProblemsSolving();
         performPangramCheck();
+        twoSumChecker();
+        parityOutlier();
     }
 
     /**
@@ -36,5 +40,23 @@ public class Main {
         PangramChecker pangramChecker = new PangramChecker();
         String sentence = "The quick brown fox jumps over the lazy do.";
         System.out.println(pangramChecker.check(sentence));
+    }
+
+    public static void twoSumChecker() {
+        List<Integer> numbers = new LinkedList<>();
+        numbers.add(10);
+        numbers.add(15);
+        numbers.add(3);
+        numbers.add(7);
+        int sum = 17;
+
+        TwoSumChecker twoSumChecker = new TwoSumChecker();
+        System.out.println("Two sum checker result: "+ twoSumChecker.checkTwoSum(numbers, sum));
+    }
+
+    public static void parityOutlier() {
+        int[] list = {2, 6, 8, -10, 3};
+        ParityOutlier parityOutlier = new ParityOutlier();
+        System.out.println("Parity outlier: " + parityOutlier.find(list));
     }
 }
