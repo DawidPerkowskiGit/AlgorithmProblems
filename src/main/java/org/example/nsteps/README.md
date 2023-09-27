@@ -17,7 +17,7 @@ What if, instead of being able to climb 1 or 2 steps at a time, you could climb 
 
 ## Solution
 
-I solved this problem using recursion. First algorithm checks if the data is correct, then it sorts the step amount list from lowest to highest.
+Problem was solved using recursion. First algorithm checks if the data is correct, then it sorts the step amount list from lowest to highest.
 Algorithm takes current number of steps taken, number of steps to be taken and current steps amount history.
 There are only three outcomes of climbing the stairs in the next step.
 
