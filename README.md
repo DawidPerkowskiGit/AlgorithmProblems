@@ -6,6 +6,8 @@ These are my solutions for some algorithm problems
 * [Parity outlier](#parity-outlier)
 * [Array product except for itself](#array-product-except-for-itself)
 * [Your order please](*your-order-please)
+
+
 * [Setup](#setup)
 
 
