@@ -4,6 +4,7 @@ These are my solutions for some algorithm problems
 * [Pangram checker](#pangram-checker)
 * [Two sum problem](#two-sum-problem)
 * [Parity outlier](#parity-outlier)
+* [Array product except for itself](#array-product-except-for-itself)
 * [Setup](#setup)
 
 
@@ -18,6 +19,10 @@ https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/jav
 
 ## Parity outlier
 https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/java/org/example/parityoutlier
+
+## Array product except for itself
+https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/java/org/example/arrayproductexceptforitself
+
 
 
 ### Setup

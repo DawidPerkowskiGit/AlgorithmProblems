@@ -1,5 +1,6 @@
 package org.example;
 
+import org.example.arrayproductexceptforitself.ArrayProductExceptForItself;
 import org.example.nsteps.NStepsProblem;
 import org.example.pangramchecker.PangramChecker;
 import org.example.parityoutlier.ParityOutlier;
@@ -16,6 +17,7 @@ public class Main {
         performPangramCheck();
         twoSumChecker();
         parityOutlier();
+        arrayProductExceptForItself();
     }
 
     /**
@@ -58,5 +60,17 @@ public class Main {
         int[] list = {2, 6, 8, -10, 3};
         ParityOutlier parityOutlier = new ParityOutlier();
         System.out.println("Parity outlier: " + parityOutlier.find(list));
+    }
+
+    public static void arrayProductExceptForItself() {
+        int[] input = {1, 2, 3, 4, 5};
+
+        ArrayProductExceptForItself arrayProductExceptForItself = new ArrayProductExceptForItself();
+        arrayProductExceptForItself.DIVISION_ALGORITHM = true;
+
+        System.out.println("Array product except for itself. Division algorithm: " + arrayProductExceptForItself.DIVISION_ALGORITHM);
+        System.out.println("Input:" + Arrays.toString(Arrays.stream(input).toArray()));
+        System.out.println("Output:" + Arrays.toString(Arrays.stream(arrayProductExceptForItself.calculate(input)).toArray()));
+
     }
 }
