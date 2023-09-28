@@ -5,6 +5,7 @@ These are my solutions for some algorithm problems
 * [Two sum problem](#two-sum-problem)
 * [Parity outlier](#parity-outlier)
 * [Array product except for itself](#array-product-except-for-itself)
+* [Your order please](*your-order-please)
 * [Setup](#setup)
 
 
@@ -23,6 +24,8 @@ https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/jav
 ## Array product except for itself
 https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/java/org/example/arrayproductexceptforitself
 
+## Your order please
+https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/java/org/example/yourorderplease
 
 
 ### Setup

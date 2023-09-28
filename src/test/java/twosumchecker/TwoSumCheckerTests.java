@@ -1,6 +1,5 @@
 package twosumchecker;
 
-import org.example.pangramchecker.PangramChecker;
 import org.example.twosumchecker.TwoSumChecker;
 import org.junit.Test;
 
