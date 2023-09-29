@@ -5,8 +5,10 @@ These are my solutions for some algorithm problems
 * [Two sum problem](#two-sum-problem)
 * [Parity outlier](#parity-outlier)
 * [Array product except for itself](#array-product-except-for-itself)
-* [Your order please](*your-order-please)
+* [Your order please](#your-order-please)
+* [Binary tree serialization deserialization](#binary-tree-serialization-deserialization)
 
+-----------------------
 
 * [Setup](#setup)
 
@@ -29,6 +31,11 @@ https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/jav
 ## Your order please
 https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/java/org/example/yourorderplease
 
+## Binary tree serialization deserialization
+https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/java/org/example/binarytreeserializer
+
+
+------------------------------------
 
 ### Setup
 

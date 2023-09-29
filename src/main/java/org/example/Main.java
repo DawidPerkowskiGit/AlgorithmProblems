@@ -1,6 +1,8 @@
 package org.example;
 
 import org.example.arrayproductexceptforitself.ArrayProductExceptForItself;
+import org.example.binarytreeserializer.BinaryTreeSerializer;
+import org.example.binarytreeserializer.Node;
 import org.example.nsteps.NStepsProblem;
 import org.example.pangramchecker.PangramChecker;
 import org.example.parityoutlier.ParityOutlier;
@@ -18,6 +20,7 @@ public class Main {
         twoSumChecker();
         parityOutlier();
         arrayProductExceptForItself();
+        binaryTreeSerializationDeserialization();
     }
 
     /**
@@ -72,5 +75,19 @@ public class Main {
         System.out.println("Input:" + Arrays.toString(Arrays.stream(input).toArray()));
         System.out.println("Output:" + Arrays.toString(Arrays.stream(arrayProductExceptForItself.calculate(input)).toArray()));
 
+    }
+
+    public static void binaryTreeSerializationDeserialization() {
+        Node node = new Node("root",new Node("left",new Node("left.left", new Node("left.left.left"), ""), ""),new Node("right"));
+
+        BinaryTreeSerializer binaryTreeSerializer = new BinaryTreeSerializer();
+
+        String serialized = binaryTreeSerializer.serialize(node);
+
+        System.out.println(serialized);
+
+        Node deserialized = binaryTreeSerializer.deserialization(serialized);
+
+        System.out.println("root.left.left.left.val = " + deserialized.left.left.left.val);
     }
 }
