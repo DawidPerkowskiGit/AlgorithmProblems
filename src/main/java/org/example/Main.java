@@ -1,5 +1,6 @@
 package org.example;
 
+import org.example.arraydiff.ArrayDiff;
 import org.example.arrayproductexceptforitself.ArrayProductExceptForItself;
 import org.example.binarytreeserializer.BinaryTreeSerializer;
 import org.example.binarytreeserializer.Node;
@@ -21,6 +22,7 @@ public class Main {
         parityOutlier();
         arrayProductExceptForItself();
         binaryTreeSerializationDeserialization();
+        arrayDifference();
     }
 
     /**
@@ -89,5 +91,15 @@ public class Main {
         Node deserialized = binaryTreeSerializer.deserialization(serialized);
 
         System.out.println("root.left.left.left.val = " + deserialized.left.left.left.val);
+    }
+
+    public static void arrayDifference() {
+        int[] arrayA = {1, 2, 2, 2, 3};
+
+        int[] arrayB = {2};
+
+        ArrayDiff arrayDiff = new ArrayDiff();
+
+        System.out.println(Arrays.toString(Arrays.stream(arrayDiff.removeElements(arrayA, arrayB)).toArray()));
     }
 }

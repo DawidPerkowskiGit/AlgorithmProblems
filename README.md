@@ -7,6 +7,7 @@ These are my solutions for some algorithm problems
 * [Array product except for itself](#array-product-except-for-itself)
 * [Your order please](#your-order-please)
 * [Binary tree serialization deserialization](#binary-tree-serialization-deserialization)
+* [Array Diff](*array-diff)
 
 -----------------------
 
@@ -33,6 +34,9 @@ https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/jav
 
 ## Binary tree serialization deserialization
 https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/java/org/example/binarytreeserializer
+
+## Array diff
+https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/java/org/example/arraydiff
 
 
 ------------------------------------
