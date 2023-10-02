@@ -15,4 +15,4 @@ arrayDiff(new int[] {1, 2, 2, 2, 3}, new int[] {2}) => new int[]
 
 ## Solution
 
-Solution uses Java's List function removeAll to remove entires from 
+Solution uses Java's List function removeAll to remove entires from Array A.
