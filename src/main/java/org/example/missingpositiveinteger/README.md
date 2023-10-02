@@ -53,5 +53,5 @@ counter = 4
 #3 marked = {-2, -1, -3, 4, 0} (abs(-3) - 1 = 2. Number of index 2 has to be set to nagative 3 => -3)
 #4 marked = {-2, -1, -3, -4, 0} (abs(-4) - 1 = 3. Number of index 3 has to be set to nagative 4 => -4)
 
-No positive numbers found => First poitive integer missing = 4 + 1 = 5
+No positive numbers found => First positive integer missing = 4 + 1 = 5
 ```
