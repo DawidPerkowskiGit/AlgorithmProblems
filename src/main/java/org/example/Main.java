@@ -4,6 +4,7 @@ import org.example.arraydiff.ArrayDiff;
 import org.example.arrayproductexceptforitself.ArrayProductExceptForItself;
 import org.example.binarytreeserializer.BinaryTreeSerializer;
 import org.example.binarytreeserializer.Node;
+import org.example.missingpositiveinteger.MissingPositiveIntegerInArray;
 import org.example.nsteps.NStepsProblem;
 import org.example.pangramchecker.PangramChecker;
 import org.example.parityoutlier.ParityOutlier;
@@ -23,6 +24,7 @@ public class Main {
         arrayProductExceptForItself();
         binaryTreeSerializationDeserialization();
         arrayDifference();
+        firstMissingInteger();
     }
 
     /**
@@ -101,5 +103,14 @@ public class Main {
         ArrayDiff arrayDiff = new ArrayDiff();
 
         System.out.println(Arrays.toString(Arrays.stream(arrayDiff.removeElements(arrayA, arrayB)).toArray()));
+    }
+
+    public static void firstMissingInteger() {
+        int[] nums = {1,-1,-5,-3,3,4,2,8};
+
+        MissingPositiveIntegerInArray alg = new MissingPositiveIntegerInArray();
+
+        System.out.println("Array: " + Arrays.toString(nums));
+        System.out.println("Missing number: " + alg.find(nums));
     }
 }

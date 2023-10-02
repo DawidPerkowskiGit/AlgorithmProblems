@@ -8,6 +8,7 @@ These are my solutions for some algorithm problems
 * [Your order please](#your-order-please)
 * [Binary tree serialization deserialization](#binary-tree-serialization-deserialization)
 * [Array Diff](*array-diff)
+* [Missing positive integer in arary](#missing-positive-integer-in-arary)
 
 -----------------------
 
@@ -38,6 +39,8 @@ https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/jav
 ## Array diff
 https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/java/org/example/arraydiff
 
+## Missing positive integer in arary
+https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/java/org/example/missingpositiveinteger
 
 ------------------------------------
 
