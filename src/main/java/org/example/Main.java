@@ -4,6 +4,7 @@ import org.example.arraydiff.ArrayDiff;
 import org.example.arrayproductexceptforitself.ArrayProductExceptForItself;
 import org.example.binarytreeserializer.BinaryTreeSerializer;
 import org.example.binarytreeserializer.Node;
+import org.example.humanreadabletime.HumanReadableTime;
 import org.example.messagedecoder.MessageDecoder;
 import org.example.missingpositiveinteger.MissingPositiveIntegerInArray;
 import org.example.nsteps.NStepsProblem;
@@ -27,6 +28,7 @@ public class Main {
         arrayDifference();
         firstMissingInteger();
         messageDecoder();
+        humanReadableTime();
     }
 
     /**
@@ -122,5 +124,13 @@ public class Main {
         MessageDecoder messageDecoder = new MessageDecoder();
 
         System.out.println("Message decoder. Message: " + message + ", Possible decoded words: "+  messageDecoder.decode(message));
+    }
+
+    public static void humanReadableTime() {
+        HumanReadableTime humanReadableTime = new HumanReadableTime();
+
+        int time = 3600;
+
+        System.out.println(time + " seconds converted to human readable time: " + humanReadableTime.makeReadable(time));
     }
 }

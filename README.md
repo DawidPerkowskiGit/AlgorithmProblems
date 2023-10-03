@@ -10,6 +10,7 @@ These are my solutions for some algorithm problems
 * [Array Diff](*array-diff)
 * [Missing positive integer in arary](#missing-positive-integer-in-arary)
 * [Message decoder](#message-decoder)
+* [Human readable time](#human-readable-time)
 
 -----------------------
 
@@ -45,6 +46,9 @@ https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/jav
 
 ## Message decoder
 https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/java/org/example/messagedecoder
+
+## Human readable time
+https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/java/org/example/humanreadabletime
 
 ------------------------------------
 
