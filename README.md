@@ -9,6 +9,7 @@ These are my solutions for some algorithm problems
 * [Binary tree serialization deserialization](#binary-tree-serialization-deserialization)
 * [Array Diff](*array-diff)
 * [Missing positive integer in arary](#missing-positive-integer-in-arary)
+* [Message decoder](#message-decoder)
 
 -----------------------
 
@@ -41,6 +42,9 @@ https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/jav
 
 ## Missing positive integer in arary
 https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/java/org/example/missingpositiveinteger
+
+## Message decoder
+https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/java/org/example/messagedecoder
 
 ------------------------------------
 
