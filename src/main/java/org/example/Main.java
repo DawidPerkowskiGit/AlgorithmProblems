@@ -4,6 +4,7 @@ import org.example.arraydiff.ArrayDiff;
 import org.example.arrayproductexceptforitself.ArrayProductExceptForItself;
 import org.example.binarytreeserializer.BinaryTreeSerializer;
 import org.example.binarytreeserializer.Node;
+import org.example.messagedecoder.MessageDecoder;
 import org.example.missingpositiveinteger.MissingPositiveIntegerInArray;
 import org.example.nsteps.NStepsProblem;
 import org.example.pangramchecker.PangramChecker;
@@ -25,6 +26,7 @@ public class Main {
         binaryTreeSerializationDeserialization();
         arrayDifference();
         firstMissingInteger();
+        messageDecoder();
     }
 
     /**
@@ -112,5 +114,13 @@ public class Main {
 
         System.out.println("Array: " + Arrays.toString(nums));
         System.out.println("Missing number: " + alg.find(nums));
+    }
+
+    public static void messageDecoder() {
+        String message = "1234";
+
+        MessageDecoder messageDecoder = new MessageDecoder();
+
+        System.out.println("Message decoder. Message: " + message + ", Possible decoded words: "+  messageDecoder.decode(message));
     }
 }
