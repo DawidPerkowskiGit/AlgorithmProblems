@@ -4,6 +4,7 @@ import org.example.arraydiff.ArrayDiff;
 import org.example.arrayproductexceptforitself.ArrayProductExceptForItself;
 import org.example.binarytreeserializer.BinaryTreeSerializer;
 import org.example.binarytreeserializer.Node;
+import org.example.duplicateencoder.DuplicateEncoder;
 import org.example.humanreadabletime.HumanReadableTime;
 import org.example.messagedecoder.MessageDecoder;
 import org.example.missingpositiveinteger.MissingPositiveIntegerInArray;
@@ -31,6 +32,7 @@ public class Main {
         messageDecoder();
         humanReadableTime();
         univalCounter();
+        duplicateEncoder();
     }
 
     /**
@@ -151,5 +153,12 @@ public class Main {
         UnivalTreeCounter univalTreeCounter = new UnivalTreeCounter();
 
         System.out.println("Unival trees count: " + univalTreeCounter.count(root));
+    }
+
+    public static void duplicateEncoder() {
+        String input = "recede";
+        DuplicateEncoder duplicateEncoder = new DuplicateEncoder();
+
+        System.out.println("Input word: " + input + ", encoded message: " + duplicateEncoder.encode(input));
     }
 }
