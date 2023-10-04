@@ -1,8 +1,8 @@
 # Algorithm solutions   
 These are my solutions for some algorithm problems
-* [N step problem](#n-step-problem)
+* [N-step problem](#n-step-problem)
 * [Pangram checker](#pangram-checker)
-* [Two sum problem](#two-sum-problem)
+* [Two-sum problem](#two-sum-problem)
 * [Parity outlier](#parity-outlier)
 * [Array product except for itself](#array-product-except-for-itself)
 * [Your order please](#your-order-please)
@@ -10,20 +10,21 @@ These are my solutions for some algorithm problems
 * [Array Diff](*array-diff)
 * [Missing positive integer in arary](#missing-positive-integer-in-arary)
 * [Message decoder](#message-decoder)
-* [Human readable time](#human-readable-time)
+* [Human-readable time](#human-readable-time)
+* [Unival tree counter](#unival-tree-counter)
 
 -----------------------
 
 * [Setup](#setup)
 
 
-## N step problem
+## N-step problem
 https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/java/org/example/nsteps
 
 ## Pangram checker
 https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/java/org/example/pangramchecker
 
-## Two sum problem
+## Two-sum problem
 https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/java/org/example/twosumchecker
 
 ## Parity outlier
@@ -47,8 +48,11 @@ https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/jav
 ## Message decoder
 https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/java/org/example/messagedecoder
 
-## Human readable time
+## Human-readable time
 https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/java/org/example/humanreadabletime
+
+## Unival tree counter
+https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/java/org/example/univaltreecounter
 
 ------------------------------------
 

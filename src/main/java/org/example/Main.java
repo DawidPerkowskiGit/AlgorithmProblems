@@ -11,6 +11,7 @@ import org.example.nsteps.NStepsProblem;
 import org.example.pangramchecker.PangramChecker;
 import org.example.parityoutlier.ParityOutlier;
 import org.example.twosumchecker.TwoSumChecker;
+import org.example.univaltreecounter.UnivalTreeCounter;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -29,6 +30,7 @@ public class Main {
         firstMissingInteger();
         messageDecoder();
         humanReadableTime();
+        univalCounter();
     }
 
     /**
@@ -119,7 +121,7 @@ public class Main {
     }
 
     public static void messageDecoder() {
-        String message = "1234";
+        String message = "1111111111";
 
         MessageDecoder messageDecoder = new MessageDecoder();
 
@@ -132,5 +134,22 @@ public class Main {
         int time = 3600;
 
         System.out.println(time + " seconds converted to human readable time: " + humanReadableTime.makeReadable(time));
+    }
+
+    public static void univalCounter() {
+        Node root = new Node(
+                "0",
+                new Node(
+                        "1",
+                        new Node(
+                                "1",
+                                new Node("1"),
+                                new Node("1")),
+                        new Node("0")),
+                new Node("0"));
+
+        UnivalTreeCounter univalTreeCounter = new UnivalTreeCounter();
+
+        System.out.println("Unival trees count: " + univalTreeCounter.count(root));
     }
 }
