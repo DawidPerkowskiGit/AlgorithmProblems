@@ -12,6 +12,7 @@ import org.example.missingpositiveinteger.MissingPositiveIntegerInArray;
 import org.example.nsteps.NStepsProblem;
 import org.example.pangramchecker.PangramChecker;
 import org.example.parityoutlier.ParityOutlier;
+import org.example.tenminwalk.TenMinWalk;
 import org.example.twosumchecker.TwoSumChecker;
 import org.example.univaltreecounter.UnivalTreeCounter;
 
@@ -35,6 +36,7 @@ public class Main {
         univalCounter();
         duplicateEncoder();
         biggestNonAdjacentSum();
+        tenMinWalk();
     }
 
     /**
@@ -170,5 +172,13 @@ public class Main {
         LargestNonAdjacentSum algorithm = new LargestNonAdjacentSum();
 
         System.out.println("Largest sum of non-adjacent numbers " + Arrays.toString(numbers) + " is: " + algorithm.findSum(numbers));
+    }
+
+    public static void tenMinWalk() {
+        char[] path = {'n','s','n','s','n','s','n','s','n','s'};
+
+        TenMinWalk tenMinWalk = new TenMinWalk();
+
+        System.out.println("Is path: " + Arrays.toString(path) +", ten minute walk? Answer: " + tenMinWalk.isValid(path));
     }
 }

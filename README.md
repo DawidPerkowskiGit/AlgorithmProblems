@@ -14,6 +14,7 @@ These are my solutions for some algorithm problems
 * [Unival tree counter](#unival-tree-counter)
 * [Duplicate encoder](#duplicate-encoder)
 * [Biggest non-adjacent sum](#biggest-non-adjacent-sum)
+* [Ten minutes walk](#ten-minutes-walk)
 
 -----------------------
 
@@ -61,6 +62,9 @@ https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/jav
 
 ## Biggest non-adjacent sum
 https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/java/org/example/biggestnonadjacentsum
+
+## Ten minutes walk
+https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/java/org/example/tenminwalk
 
 
 ------------------------------------
