@@ -6,6 +6,7 @@ import org.example.binarytreeserializer.BinaryTreeSerializer;
 import org.example.binarytreeserializer.Node;
 import org.example.duplicateencoder.DuplicateEncoder;
 import org.example.humanreadabletime.HumanReadableTime;
+import org.example.largestnonadjacentsum.LargestNonAdjacentSum;
 import org.example.messagedecoder.MessageDecoder;
 import org.example.missingpositiveinteger.MissingPositiveIntegerInArray;
 import org.example.nsteps.NStepsProblem;
@@ -33,6 +34,7 @@ public class Main {
         humanReadableTime();
         univalCounter();
         duplicateEncoder();
+        biggestNonAdjacentSum();
     }
 
     /**
@@ -160,5 +162,13 @@ public class Main {
         DuplicateEncoder duplicateEncoder = new DuplicateEncoder();
 
         System.out.println("Input word: " + input + ", encoded message: " + duplicateEncoder.encode(input));
+    }
+
+    public static void biggestNonAdjacentSum() {
+        int[] numbers = {2, 4, 6, 2, 5, 7, 1, 8};
+
+        LargestNonAdjacentSum algorithm = new LargestNonAdjacentSum();
+
+        System.out.println("Largest sum of non-adjacent numbers " + Arrays.toString(numbers) + " is: " + algorithm.findSum(numbers));
     }
 }

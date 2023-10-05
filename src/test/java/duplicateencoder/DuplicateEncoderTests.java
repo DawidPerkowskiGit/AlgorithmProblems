@@ -33,4 +33,31 @@ public class DuplicateEncoderTests {
 
         assertEquals(true, output.equals(duplicateEncoder.encode(input)));
     }
+
+    @Test
+    public void shouldReturnCorrectlyEncodedMessage4() {
+        String input = "din";
+        String output = "(((";
+        DuplicateEncoder duplicateEncoder = new DuplicateEncoder();
+
+        assertEquals(true, output.equals(duplicateEncoder.encode(input)));
+    }
+
+    @Test
+    public void shouldReturnCorrectlyEncodedMessage5() {
+        String input = "Success";
+        String output = ")())())";
+        DuplicateEncoder duplicateEncoder = new DuplicateEncoder();
+
+        assertEquals(true, output.equals(duplicateEncoder.encode(input)));
+    }
+
+    @Test
+    public void shouldReturnCorrectlyEncodedMessage6() {
+        String input = "(( @";
+        String output = "))((";
+        DuplicateEncoder duplicateEncoder = new DuplicateEncoder();
+
+        assertEquals(true, output.equals(duplicateEncoder.encode(input)));
+    }
 }

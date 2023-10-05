@@ -13,6 +13,7 @@ These are my solutions for some algorithm problems
 * [Human-readable time](#human-readable-time)
 * [Unival tree counter](#unival-tree-counter)
 * [Duplicate encoder](#duplicate-encoder)
+* [Biggest non-adjacent sum](#biggest-non-adjacent-sum)
 
 -----------------------
 
@@ -57,6 +58,9 @@ https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/jav
 
 ## Duplicate encoder
 https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/java/org/example/duplicateencoder
+
+## Biggest non-adjacent sum
+https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/java/org/example/biggestnonadjacentsum
 
 
 ------------------------------------

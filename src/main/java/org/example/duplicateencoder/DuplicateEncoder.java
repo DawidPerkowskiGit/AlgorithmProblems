@@ -9,14 +9,14 @@ public class DuplicateEncoder {
 
         word = word.toLowerCase();
 
-        String singleLetter = new String();
+        String singleLetter;
         for (int i = 0 ; i < word.length() ; i++) {
             singleLetter = String.valueOf(word.charAt(i));
-            if (letters.containsKey(singleLetter.toString())) {
-                letters.put(singleLetter.toString(), true);
+            if (letters.containsKey(singleLetter)) {
+                letters.put(singleLetter, true);
             }
             else {
-                letters.put(singleLetter.toString(), false);
+                letters.put(singleLetter, false);
             }
         }
 
