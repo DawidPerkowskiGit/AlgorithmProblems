@@ -15,6 +15,7 @@ These are my solutions for some algorithm problems
 * [Duplicate encoder](#duplicate-encoder)
 * [Biggest non-adjacent sum](#biggest-non-adjacent-sum)
 * [Ten minutes walk](#ten-minutes-walk)
+* [Return element of a pair](#return-element-of-a-pair)
 
 -----------------------
 
@@ -65,6 +66,9 @@ https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/jav
 
 ## Ten minutes walk
 https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/java/org/example/tenminwalk
+
+## Return element of a pair
+https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/java/org/example/returnpairelement
 
 
 ------------------------------------

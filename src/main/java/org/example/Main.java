@@ -12,6 +12,7 @@ import org.example.missingpositiveinteger.MissingPositiveIntegerInArray;
 import org.example.nsteps.NStepsProblem;
 import org.example.pangramchecker.PangramChecker;
 import org.example.parityoutlier.ParityOutlier;
+import org.example.returnpairelement.cons;
 import org.example.tenminwalk.TenMinWalk;
 import org.example.twosumchecker.TwoSumChecker;
 import org.example.univaltreecounter.UnivalTreeCounter;
@@ -20,6 +21,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
+
+import static org.example.returnpairelement.ReturnPairElement.car;
+import static org.example.returnpairelement.ReturnPairElement.cdr;
 
 public class Main {
     public static void main(String[] args) {
@@ -37,6 +41,7 @@ public class Main {
         duplicateEncoder();
         biggestNonAdjacentSum();
         tenMinWalk();
+        returnPairElement();
     }
 
     /**
@@ -180,5 +185,11 @@ public class Main {
         TenMinWalk tenMinWalk = new TenMinWalk();
 
         System.out.println("Is path: " + Arrays.toString(path) +", ten minute walk? Answer: " + tenMinWalk.isValid(path));
+    }
+
+    public static void returnPairElement() {
+        System.out.println("car(cons(4, 3)) : " +car(new cons("4", "3")));
+        System.out.println("cdr(cons(4, 3)) : " +cdr(new cons("4", "3")));
+
     }
 }
