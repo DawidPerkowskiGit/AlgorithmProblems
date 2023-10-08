@@ -16,6 +16,7 @@ These are my solutions for some algorithm problems
 * [Biggest non-adjacent sum](#biggest-non-adjacent-sum)
 * [Ten minutes walk](#ten-minutes-walk)
 * [Return element of a pair](#return-element-of-a-pair)
+* [Job scheduler](#job-scheduler)
 
 -----------------------
 
@@ -69,6 +70,9 @@ https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/jav
 
 ## Return element of a pair
 https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/java/org/example/returnpairelement
+
+## Job scheduler
+https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/java/org/example/scheduler
 
 
 ------------------------------------

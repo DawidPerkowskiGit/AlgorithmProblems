@@ -1,4 +1,4 @@
-# Yen minutes walk
+# Ten minutes walk
 * [Problem](#problem)
 * [Solution](#solution)
 

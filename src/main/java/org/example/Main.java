@@ -13,6 +13,8 @@ import org.example.nsteps.NStepsProblem;
 import org.example.pangramchecker.PangramChecker;
 import org.example.parityoutlier.ParityOutlier;
 import org.example.returnpairelement.cons;
+import org.example.scheduler.CustomSchedule;
+import org.example.scheduler.JobScheduler;
 import org.example.tenminwalk.TenMinWalk;
 import org.example.twosumchecker.TwoSumChecker;
 import org.example.univaltreecounter.UnivalTreeCounter;
@@ -42,6 +44,7 @@ public class Main {
         biggestNonAdjacentSum();
         tenMinWalk();
         returnPairElement();
+        jobScheduler();
     }
 
     /**
@@ -190,6 +193,20 @@ public class Main {
     public static void returnPairElement() {
         System.out.println("car(cons(4, 3)) : " +car(new cons("4", "3")));
         System.out.println("cdr(cons(4, 3)) : " +cdr(new cons("4", "3")));
+
+    }
+
+    public static void jobScheduler() {
+        JobScheduler scheduler = new JobScheduler();
+
+        scheduler.addSchedule(new CustomSchedule("Info2", 11000));
+        scheduler.addSchedule(new CustomSchedule("Info3", 15000));
+
+        scheduler.addSchedule(new CustomSchedule("Ping", 10000));
+        scheduler.addSchedule(new CustomSchedule("Pong", 3000));
+        scheduler.addSchedule(new CustomSchedule("Info", 5000));
+
+        scheduler.executeScheduler();
 
     }
 }
