@@ -74,6 +74,9 @@ https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/jav
 ## Job scheduler
 https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/java/org/example/scheduler
 
+## Autocompleter
+https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/java/org/example/autocompleter
+
 
 ------------------------------------
 

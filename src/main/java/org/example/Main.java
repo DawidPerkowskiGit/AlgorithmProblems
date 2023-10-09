@@ -2,6 +2,7 @@ package org.example;
 
 import org.example.arraydiff.ArrayDiff;
 import org.example.arrayproductexceptforitself.ArrayProductExceptForItself;
+import org.example.autocompleter.Autocompleter;
 import org.example.binarytreeserializer.BinaryTreeSerializer;
 import org.example.binarytreeserializer.Node;
 import org.example.duplicateencoder.DuplicateEncoder;
@@ -44,7 +45,8 @@ public class Main {
         biggestNonAdjacentSum();
         tenMinWalk();
         returnPairElement();
-        jobScheduler();
+        //jobScheduler();
+        autocompleter();
     }
 
     /**
@@ -208,5 +210,14 @@ public class Main {
 
         scheduler.executeScheduler();
 
+    }
+    
+    public static void autocompleter() {
+        Autocompleter autocompleter = new Autocompleter();
+        
+        String phrase = "ab";
+        String[] returnedWords = autocompleter.autocomplete(phrase);
+
+        System.out.println("For phrase: " + phrase + ", autocompleted words: " + Arrays.toString(Arrays.stream(returnedWords).toArray()));
     }
 }
