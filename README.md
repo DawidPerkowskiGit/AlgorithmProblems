@@ -17,6 +17,7 @@ These are my solutions for some algorithm problems
 * [Ten minutes walk](#ten-minutes-walk)
 * [Return element of a pair](#return-element-of-a-pair)
 * [Job scheduler](#job-scheduler)
+* [Longest substring containing k distinct characters](#longest-substring-containing-k-distinct-characters)
 
 -----------------------
 
@@ -76,6 +77,9 @@ https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/jav
 
 ## Autocompleter
 https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/java/org/example/autocompleter
+
+## Longest substring containing k distinct characters
+https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/java/org/example/longestsubstringdistinctchars
 
 
 ------------------------------------

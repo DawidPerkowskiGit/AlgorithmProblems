@@ -8,6 +8,7 @@ import org.example.binarytreeserializer.Node;
 import org.example.duplicateencoder.DuplicateEncoder;
 import org.example.humanreadabletime.HumanReadableTime;
 import org.example.largestnonadjacentsum.LargestNonAdjacentSum;
+import org.example.longestsubstringdistinctchars.LongestSubstringDistinctCharacters;
 import org.example.messagedecoder.MessageDecoder;
 import org.example.missingpositiveinteger.MissingPositiveIntegerInArray;
 import org.example.nsteps.NStepsProblem;
@@ -47,6 +48,7 @@ public class Main {
         returnPairElement();
         //jobScheduler();
         autocompleter();
+        longestSubstringDistinctCharacters();
     }
 
     /**
@@ -219,5 +221,14 @@ public class Main {
         String[] returnedWords = autocompleter.autocomplete(phrase);
 
         System.out.println("For phrase: " + phrase + ", autocompleted words: " + Arrays.toString(Arrays.stream(returnedWords).toArray()));
+    }
+
+    public static void longestSubstringDistinctCharacters() {
+        String input = "fghijklzabcbazxy";
+        int distinctChars = 4;
+
+        LongestSubstringDistinctCharacters alg = new LongestSubstringDistinctCharacters(distinctChars, input);
+
+        System.out.println("For input: " + input + ", longest substring with k = " + distinctChars + " distinct characters is " + alg.find() + " characters long");
     }
 }
