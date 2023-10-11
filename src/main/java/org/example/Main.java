@@ -11,6 +11,7 @@ import org.example.largestnonadjacentsum.LargestNonAdjacentSum;
 import org.example.longestsubstringdistinctchars.LongestSubstringDistinctCharacters;
 import org.example.messagedecoder.MessageDecoder;
 import org.example.missingpositiveinteger.MissingPositiveIntegerInArray;
+import org.example.estiamtepi.CalculatePiValue;
 import org.example.nsteps.NStepsProblem;
 import org.example.pangramchecker.PangramChecker;
 import org.example.parityoutlier.ParityOutlier;
@@ -49,6 +50,7 @@ public class Main {
         //jobScheduler();
         autocompleter();
         longestSubstringDistinctCharacters();
+        calculatePiValue();
     }
 
     /**
@@ -230,5 +232,10 @@ public class Main {
         LongestSubstringDistinctCharacters alg = new LongestSubstringDistinctCharacters(distinctChars, input);
 
         System.out.println("For input: " + input + ", longest substring with k = " + distinctChars + " distinct characters is " + alg.find() + " characters long");
+    }
+
+    public static void calculatePiValue() {
+        CalculatePiValue calculatePiValue = new CalculatePiValue();
+        System.out.println(calculatePiValue.calculate());
     }
 }

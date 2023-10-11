@@ -18,6 +18,7 @@ These are my solutions for some algorithm problems
 * [Return element of a pair](#return-element-of-a-pair)
 * [Job scheduler](#job-scheduler)
 * [Longest substring containing k distinct characters](#longest-substring-containing-k-distinct-characters)
+* [Estimate Pi value](#estimate-pi-value)
 
 -----------------------
 
@@ -80,6 +81,9 @@ https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/jav
 
 ## Longest substring containing k distinct characters
 https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/java/org/example/longestsubstringdistinctchars
+
+## Estimate Pi value
+https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/java/org/example/estiamtepi
 
 
 ------------------------------------
