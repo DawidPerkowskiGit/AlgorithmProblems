@@ -1,4 +1,4 @@
-# Unival tree counter
+# Duplicate encoder
 * [Problem](#problem)
 * [Solution](#solution)
 

@@ -236,6 +236,6 @@ public class Main {
 
     public static void calculatePiValue() {
         CalculatePiValue calculatePiValue = new CalculatePiValue();
-        System.out.println(calculatePiValue.calculate());
+        calculatePiValue.calculate();
     }
 }

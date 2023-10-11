@@ -13,7 +13,7 @@ These are my solutions for some algorithm problems
 * [Human-readable time](#human-readable-time)
 * [Unival tree counter](#unival-tree-counter)
 * [Duplicate encoder](#duplicate-encoder)
-* [Biggest non-adjacent sum](#biggest-non-adjacent-sum)
+* [Largest non-adjacent sum](#largest-non-adjacent-sum)
 * [Ten minutes walk](#ten-minutes-walk)
 * [Return element of a pair](#return-element-of-a-pair)
 * [Job scheduler](#job-scheduler)
@@ -64,8 +64,8 @@ https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/jav
 ## Duplicate encoder
 https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/java/org/example/duplicateencoder
 
-## Biggest non-adjacent sum
-https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/java/org/example/biggestnonadjacentsum
+## Largest non-adjacent sum
+https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/java/org/example/largestnonadjacentsum
 
 ## Ten minutes walk
 https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/java/org/example/tenminwalk
