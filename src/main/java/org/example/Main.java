@@ -15,6 +15,7 @@ import org.example.estiamtepi.CalculatePiValue;
 import org.example.nsteps.NStepsProblem;
 import org.example.pangramchecker.PangramChecker;
 import org.example.parityoutlier.ParityOutlier;
+import org.example.randomelementfrominfinitestream.PickRandomElementFromInfiniteStream;
 import org.example.returnpairelement.cons;
 import org.example.scheduler.CustomSchedule;
 import org.example.scheduler.JobScheduler;
@@ -51,6 +52,7 @@ public class Main {
         autocompleter();
         longestSubstringDistinctCharacters();
         calculatePiValue();
+        randomElementOfInfiniteSteam();
     }
 
     /**
@@ -237,5 +239,11 @@ public class Main {
     public static void calculatePiValue() {
         CalculatePiValue calculatePiValue = new CalculatePiValue();
         calculatePiValue.calculate();
+    }
+
+    public static void randomElementOfInfiniteSteam() {
+        PickRandomElementFromInfiniteStream random = new PickRandomElementFromInfiniteStream();
+        int[] stream = {2, 5, 1, 9, 0, 123, 56, 93, 15, 20, 25, 6, -11, 7};
+        random.pick(stream);
     }
 }
