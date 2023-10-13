@@ -20,6 +20,7 @@ These are my solutions for some algorithm problems
 * [Longest substring containing k distinct characters](#longest-substring-containing-k-distinct-characters)
 * [Estimate Pi value](#estimate-pi-value)
 * [Pick random element from infinite stream](#pick-random-element-from-infinite-stream)
+* [Find longest filepath](#find-longest-filepath)
 
 -----------------------
 
@@ -89,6 +90,8 @@ https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/jav
 ## Pick random element from infinite stream
 https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/java/org/example/randomelementfrominfinitestream
 
+## Find longest filepath
+https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/java/org/example/findlongestfilepath
 
 ------------------------------------
 

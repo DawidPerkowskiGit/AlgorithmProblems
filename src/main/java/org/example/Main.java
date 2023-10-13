@@ -6,6 +6,7 @@ import org.example.autocompleter.Autocompleter;
 import org.example.binarytreeserializer.BinaryTreeSerializer;
 import org.example.binarytreeserializer.Node;
 import org.example.duplicateencoder.DuplicateEncoder;
+import org.example.findlongestfilepath.FindLongestFilepath;
 import org.example.humanreadabletime.HumanReadableTime;
 import org.example.largestnonadjacentsum.LargestNonAdjacentSum;
 import org.example.longestsubstringdistinctchars.LongestSubstringDistinctCharacters;
@@ -53,6 +54,7 @@ public class Main {
         longestSubstringDistinctCharacters();
         calculatePiValue();
         randomElementOfInfiniteSteam();
+        findLongestPathFile();
     }
 
     /**
@@ -245,5 +247,12 @@ public class Main {
         PickRandomElementFromInfiniteStream random = new PickRandomElementFromInfiniteStream();
         int[] stream = {2, 5, 1, 9, 0, 123, 56, 93, 15, 20, 25, 6, -11, 7};
         random.pick(stream);
+    }
+
+    public static void findLongestPathFile() {
+        FindLongestFilepath findLongestFilepath = new FindLongestFilepath();
+        String path = "dir\n\tsubdir1\n\t\tfile1.ext\n\t\tsubsubdir1\n\tsubdir2\n\t\tsubsubdir2\n\t\t\tfile2.ext";
+
+        System.out.println("Longest filepath of: " + path + " , is equal to: " + findLongestFilepath.find(path));
     }
 }
