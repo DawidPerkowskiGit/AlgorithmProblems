@@ -9,6 +9,7 @@ import org.example.duplicateencoder.DuplicateEncoder;
 import org.example.findlongestfilepath.FindLongestFilepath;
 import org.example.humanreadabletime.HumanReadableTime;
 import org.example.largestnonadjacentsum.LargestNonAdjacentSum;
+import org.example.latestorderlist.LatestOrderList;
 import org.example.longestsubstringdistinctchars.LongestSubstringDistinctCharacters;
 import org.example.messagedecoder.MessageDecoder;
 import org.example.missingpositiveinteger.MissingPositiveIntegerInArray;
@@ -55,6 +56,7 @@ public class Main {
         calculatePiValue();
         randomElementOfInfiniteSteam();
         findLongestPathFile();
+        latestOrderList();
     }
 
     /**
@@ -254,5 +256,19 @@ public class Main {
         String path = "dir\n\tsubdir1\n\t\tfile1.ext\n\t\tsubsubdir1\n\tsubdir2\n\t\tsubsubdir2\n\t\t\tfile2.ext";
 
         System.out.println("Longest filepath of: " + path + " , is equal to: " + findLongestFilepath.find(path));
+    }
+
+    public static void latestOrderList() {
+
+        LatestOrderList latestOrderList = new LatestOrderList();
+
+        latestOrderList.record(5);
+        latestOrderList.record(2);
+        latestOrderList.record(8);
+        latestOrderList.record(1);
+        latestOrderList.record(7);
+        latestOrderList.record(3);
+
+        System.out.println("Latest element added to the list is: " + latestOrderList.get_last(1));
     }
 }

@@ -21,6 +21,7 @@ These are my solutions for some algorithm problems
 * [Estimate Pi value](#estimate-pi-value)
 * [Pick random element from infinite stream](#pick-random-element-from-infinite-stream)
 * [Find longest filepath](#find-longest-filepath)
+* [Latest order list](#latest-order-list)
 
 -----------------------
 
@@ -92,6 +93,9 @@ https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/jav
 
 ## Find longest filepath
 https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/java/org/example/findlongestfilepath
+
+## Latest order list
+https://github.com/DawidPerkowskiGit/AlgorithmsProblems/tree/master/src/main/java/org/example/latestorderlist
 
 ------------------------------------
 
