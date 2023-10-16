@@ -16,4 +16,13 @@ public class FindLongestFilepathTests {
 
         assertEquals(longestPath, calculatedPath);
     }
+
+    @Test
+    public void shouldReturnCorrectPathLength2() {
+        String path = "d\n\ts\n\t\ts.e\n\t\ts\n\ts\n\t\ts\n\t\t\ts.t";
+        int longestPath = 14;
+        int calculatedPath = findLongestFilepath.find(path);
+
+        assertEquals(longestPath, calculatedPath);
+    }
 }
