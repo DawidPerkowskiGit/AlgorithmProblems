@@ -57,6 +57,7 @@ public class Main {
         randomElementOfInfiniteSteam();
         findLongestPathFile();
         latestOrderList();
+        findLongestPathFile();
     }
 
     /**

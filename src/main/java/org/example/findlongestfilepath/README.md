@@ -43,7 +43,7 @@ The name of a directory or sub-directory will not contain a period.
 
 ## Solution
 
-First step was to break down how the root directory, subdirectories and files are represented in the input.
+First step was to break down how the file system nodes are represented in the input string.
 
 The string "dir\n\tsubdir1\n\tsubdir2\n\t\tfile.ext" represents:
 ```
@@ -64,9 +64,15 @@ dir						// ""
             file2.ext	// "\n\t\t\t"
 ```
 
-First element of the input is root directory name. All the following element's names start with a prefix "\n" and k number of "/t".
-Each "\t" represents deeper level of the structure. For example both direct subdirectories of "dir" start with the prefix "\n\t" and the "file2.ext" has a path "\dir\subdir2\subsubdir2\file2.ext" which means it is stored 3 level deep, so its prefix is "\n\t\t\t".
-
-The problem can be solved this problem by using depth-first search algorithm used in graphs, since directory structure can be represented as one.
-It travels from the root to end of first path, first it looks for the lower level element, if none found looks for the same level element, if none are found it travels up.
-Algorithm checks the next elements' level by counting number of "\t" in the prefix. Algorithm finishes its work when it reaches end of the path.
+First node - root is represented without any prefixes, just its name. All the following nodes names start with a prefix '\n' and k number of '\t' where k is depth of the node.
+In the first example both subdirectories of root node "subdir1" and "subdir2" start with the prefix "\n\t" and the "file2.ext" which is located inside "subdir2" has prefix "\n\t\t" which means its 2 levels deep in the file system structure.
+The algorithm parses trough input once, character by character. In any point of its work it can perform do one of three actions:
+- If the current character is '\n', it means its need to calculate depth of the next node. The previous and current depth are kept in memory
+- If the current character is not '\n' it means it is a start of node name and if this node is higher in the structure go to the next step. If not, calculate node name length, add it to current path nodes names length list and if is the file calculate current file path length and check if it is longest yet.
+- If current element is higher in the node structure - go up. It means algorithm removes last entries from the nodes names length list until the same depth is reached.
+For example, in second input, going from "dir\subdir1\subsubdir1" to "dir\subdir2", means changing the node name length list from:
+```
+[3, 7, 9]
+```
+To:
+[3, 7]
